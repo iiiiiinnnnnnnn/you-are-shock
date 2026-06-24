@@ -23,7 +23,7 @@ export default {
 
 // Unity側とCloudflare側で同じ値にしてください。
 // これが違うとtokenを復号・検証できません。
-const SECRET = "好きなキー"; // 好きな暗号キー(例：ANGOU_KEY)
+const SECRET = "HYAKURETUKEN"; // 好きな暗号キー(例：ANGOU_KEY)
 
 // tokenを受け取って、復号・検証・D1保存まで行う処理です。
 async function submitToken(url, env) {
